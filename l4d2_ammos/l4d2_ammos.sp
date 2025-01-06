@@ -57,7 +57,6 @@ void VoteAmmosMenu(int client)
 	menu.AddItem("5", "5倍备弹");
 	menu.AddItem("6", "6倍备弹");
 	menu.AddItem("7", "7倍备弹");
-	menu.AddItem("7", "7倍备弹");
 	menu.AddItem("8", "8倍备弹");
 	menu.AddItem("9", "无限备弹");
 	menu.AddItem("10", "开启无限前置子弹不换弹");
