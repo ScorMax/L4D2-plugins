@@ -12,9 +12,10 @@ public Plugin myinfo =
 
 static bool executeOnce=false;
 
-public void OnClientConnected(int client){
+public bool OnClientConnect(int client, char[] rejectmsg, int maxlen){
     if(!executeOnce){
         ServerCommand("sm_forcematch zonemod");
         executeOnce=true;
     }
+    return true;
 }
